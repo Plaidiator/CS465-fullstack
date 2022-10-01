@@ -13,9 +13,14 @@
     "handlebars": "^4.7.7",
     "hbs": "^4.2.0",
     "http-errors": "~1.6.3",
-    "mongoose": "^6.6.1",
+    "jade": "~1.11.0",
+    "mongoose": "~5.9.2",
     "morgan": "~1.9.1",
-    "nodemon": "^2.0.19",
+    "nodemon": "^2.0.15",
+    "seedgoose": "^2.0.2"
+  },
+  "devDependencies": {
+    "hbs": "^4.2.0",
     "seedgoose": "^2.0.2"
   }
 }
