@@ -11,7 +11,12 @@
 		<div id="page">
 			<div id="header">
 				<div id="logo">
-					<a href="index.html"><img src="images/logo.png" alt="LOGO" height="100" width="200"></a>
+					<a href="index.html"><img 
+                        src="images/logo.png" 
+                        alt="LOGO" 
+                        height="100" 
+                        width="200"
+                    /></a>
 				</div>
 				<div id="navigation">
 					<ul>
@@ -47,7 +52,7 @@
 							<ul id="sites">
 								{{#each trips}}
 								<li>
-									<a href=“/travel"><img src="images/{{this.image}}" alt="Img"></a>
+									<a href=“/api/trips/{{this.code}}"><img src="images/{{this.image}}" alt="Img"></a>
 									<h2><a href=“/travel">{{this.name}}</a></h2>
 									{{{this.description}}}
 								</li>
